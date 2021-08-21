@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <title>Photo Page</title>
+</head>
+
+<body>
+    <header>       
+            <nav id="navbar" class="navbar background h-nav-resp">
+                <ul class="navitem ">      
+                <div class="icon">  <img src="../Images/Logo/logo2.jpg" alt="logo" class="logo">
+                    <div class="company"><h1>Naturax</h1></div>  
+                      </div>
+                     <div class="nonedisplay v-class-resp"> 
+                
+                        <li class="lists"><a href="#">Home</a></li>
+                       <li class="lists"><a href="#">About</a></li>
+                       <li class="lists"><a href="#">Images</a></li>
+                         <li class="lists"><a href="#">Contact</a></li>
+                   </div>
+                  </ul>                  
+                  
+                  <div class="burger">
+                      <div class="line"></div>
+                      <div class="line"></div>
+                      <div class="line"></div>
+                      <div class="line"></div>
+                  </div>
+              </nav>          
+    </header>
+
+    <section>
+        <div class="nature  ">
+            <div class="heading v-class-repo"> 
+        <div class="container"> 
+            <p>Some Photos of Nature's Beauty</p>
+          </div>
+        </div>
+            <div class="gallary">
+                <div class="img">
+                    <img src="../Images/images/1.jpg" alt="">
+                </div>
+                <div class="img">
+                    <img src="../Images/images/2.jpg" alt="">
+                </div>
+                <div class="img">
+                    <img src="../Images/images/3.jpg" alt="">
+                </div>
+                <div class="img">
+                    <img src="../Images/images/4.jpg" alt="">
+                </div>
+                <div class="img">
+                    <img src="../Images/images/5.jpg" alt="">
+                </div>
+                <div class="img">
+                    <img src="../Images/images/6.jpg" alt="">
+                </div>
+                <div class="img">
+                    <img src="../Images/images/7.jpg" alt="">
+                </div>
+                <div class="img">
+                    <img src="../Images/images/8.jpg" alt="">
+                </div>
+                <div class="img">
+                    <img src="../Images/images/9.jpg" alt="">
+                </div>
+                <div class="img">
+                    <img src="../Images/images/10.jpg" alt="">
+                </div>
+                <div class="img">
+                    <img src="../Images/images/11.jpg" alt="">
+                </div>
+                <div class="img">
+                    <img src="../Images/images/12.jpg" alt="">
+                </div>
+                <div class="img">
+                    <img src="../Images/images/13.jpg" alt="">
+                </div>
+                <div class="img">
+                    <img src="../Images/images/14.jpg" alt="">
+                </div>
+                <div class="img">
+                    <img src="../Images/images/15.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="center"> 
+           <p>Copyrights:&copy;  www.Swayam's website.com.All rights reserved!</p> 
+      </div>
+    </footer>
+
+    <script>
+        burger=document.querySelector('.burger')
+        navitem=document.querySelector('.nonedisplay')  
+        navbar=document.querySelector('.navbar')
+        heading =document.querySelector(".heading")
+
+       burger.addEventListener('click',()=>{
+         navbar.classList.toggle('h-nav-resp');
+         navitem.classList.toggle('v-class-resp'); 
+         navitem.classList.toggle('v-class-repo');       
+         
+})
+    </script>
+  
+
+</body>
+ 
+  
+</html>
